@@ -89,18 +89,6 @@ public class Program {
 			
 		} while (!answer.equals("5"));
 		
-//		Order order1 = new Order(Menu.BACALHAU_A_BRAS, Menu.BACALHAU_A_BRAS.getPrice());
-//		Order order2 = new Order(Menu.BIFE_A_PARMEGIANA, Menu.BIFE_A_PARMEGIANA.getPrice());
-//		Order order3 = new Order(Menu.CARNE_DE_PANELA_COM_BATATAS, Menu.CARNE_DE_PANELA_COM_BATATAS.getPrice());
-//		System.out.println(order1.getItem() + ": " + order1.getItemValue());
-//		System.out.println(order2.getItem() + ": " + order2.getItemValue());
-//		System.out.println(order3.getItem() + ": " + order3.getItemValue());
-//		client.addItem(order1);
-//		client.addItem(order2);
-//		client.addItem(order3);
-//		System.out.println(client.getTotalAccount());
-//		client.findAndRemoveItem(order2);
-//		System.out.println(client.getTotalAccount());
 	
 		System.out.println("bye");
 
