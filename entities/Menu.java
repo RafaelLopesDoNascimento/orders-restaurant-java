@@ -1,0 +1,38 @@
+package entities;
+
+
+public enum Menu {
+	BIFE_A_PARMEGIANA(25.00),
+    FEIJOADA(30.00),
+    STROGONOFF_DE_FRANGO(20.00),
+    MOQUECA_DE_PEIXE(35.00),
+    LASANHA_A_BOLONHESA(28.00),
+    FRANGO_GRELHADO_COM_LEGUMES(22.00),
+    PIZZA_MARGHERITA(18.00),
+    HAMBURGUER_COM_BATATAS_FRITAS(15.00),
+    SALMAO_GRELHADO(32.00),
+    SPAGHETTI_AO_ALHO_E_OLEO(16.00),
+    RISOTO_DE_CAMARAO(27.00),
+    BACALHAU_A_BRAS(34.00),
+    TACOS_MEXICANOS(14.00),
+    SUSHI_VARIADO(40.00),
+    CEVICHE(25.00),
+    PAELLA(38.00),
+    CARNE_DE_PANELA_COM_BATATAS(23.00),
+    FRANGO_A_MILANESA(21.00),
+    POLPETONE_RECHEADO(26.00),
+    ESCONDIDINHO_DE_CARNE_SECA(24.00);
+
+	private final double price;
+	
+
+	Menu(double price) {
+		this.price = price;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+	
+
+ }
